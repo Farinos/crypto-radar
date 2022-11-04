@@ -8,12 +8,10 @@
 import Foundation
 // TODO: - Review protocol
 protocol CryptoListIntentProtocol {
-    //func viewOnAppear()
-    //func onTapUrlContent(id: String)
+    func fetchCrypto() async
 }
 
-
-final class CryptoListIntent {
+final class CryptoListIntent: CryptoListIntentProtocol {
     private let service: RequestMangerProtocol
     private weak var model: CryptoListModelActionsProtocol?
     

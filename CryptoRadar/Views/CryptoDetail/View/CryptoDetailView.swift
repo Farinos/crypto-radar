@@ -17,59 +17,29 @@ struct CryptoDetailView: View {
             
             switch container.model.state {
                 
+            case .initial:
+                EmptyView()
+                
             case .fetched(let coin, let market):
                 CryptoDetail(intent: container.intent, coin: coin, prices: market.prices)
-                
-            case .initial:
-                Text("")
                 
             case .loading(let text):
                 LoadingView(text: text)
                 
             case .error(let error):
-                ErrorView(error: error, intent: container.intent)
+                ErrorView(error: error) {
+                    await container.intent.fetchDetail()
+                }
             }
             
         }.task {
             await container.intent.fetchDetail()
         }
-        
-        
     }
 }
 
 // MARK: - Private structures
 extension CryptoDetailView {
-    private struct ErrorView: View {
-        let error: Error
-        let intent: CryptoDetailIntent
-        
-        var body: some View {
-            VStack {
-                Text(error.localizedDescription)
-                Button(action: {
-                    Task {
-                        await intent.fetchDetail()
-                    }
-                }) {
-                    Text("Riprova")
-                }
-            }
-        }
-    }
-    
-    private struct LoadingView: View {
-        let text: String
-        
-        var body: some View {
-            VStack {
-                ProgressView {
-                    Text(text)
-                }
-            }
-        }
-    }
-    
     private struct CryptoDetail: View {
         var intent: CryptoDetailIntent
         var coin: CoinDetail
@@ -134,8 +104,8 @@ extension CryptoDetailView {
                     Spacer()
                     
                     
-                }.padding(.horizontal, 20).padding(.top, 10)
-                    //.navigationTitle("CryptoRadar").navigationBarTitleDisplayMode(.inline)
+                }.padding(.horizontal, 20)
+                    .padding(.top, 10)
             }.opaqueBottomSafeArea()
         }
     }

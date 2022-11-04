@@ -44,6 +44,10 @@
 		BB8370DE2915541400468AA3 /* CoinDetailResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8370DD2915541400468AA3 /* CoinDetailResponse.json */; };
 		BB8370E02915542700468AA3 /* CoinMarketDataResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = BB8370DF2915542700468AA3 /* CoinMarketDataResponse.json */; };
 		BB8370E12915558C00468AA3 /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75ECB229112FB200D69779 /* CryptoDetailView.swift */; };
+		BB89BB7429158E5600D4B136 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89BB7329158E5600D4B136 /* LoadingView.swift */; };
+		BB89BB7529158E8100D4B136 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89BB7329158E5600D4B136 /* LoadingView.swift */; };
+		BB89BB7729158F9600D4B136 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89BB7629158F9600D4B136 /* ErrorView.swift */; };
+		BB89BB7829158F9600D4B136 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89BB7629158F9600D4B136 /* ErrorView.swift */; };
 		BB9192582913FAAC00C08001 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9192572913FAAC00C08001 /* Extension+Color.swift */; };
 		BB91925A2913FADE00C08001 /* NeumorphicStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9192592913FADE00C08001 /* NeumorphicStyleModifier.swift */; };
 		BB91925C2913FB6500C08001 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB91925B2913FB6500C08001 /* Extension+Double.swift */; };
@@ -117,6 +121,8 @@
 		BB75ECB229112FB200D69779 /* CryptoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
 		BB8370DD2915541400468AA3 /* CoinDetailResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoinDetailResponse.json; sourceTree = "<group>"; };
 		BB8370DF2915542700468AA3 /* CoinMarketDataResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CoinMarketDataResponse.json; sourceTree = "<group>"; };
+		BB89BB7329158E5600D4B136 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BB89BB7629158F9600D4B136 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		BB9192562913EA7900C08001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BB9192572913FAAC00C08001 /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
 		BB9192592913FADE00C08001 /* NeumorphicStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicStyleModifier.swift; sourceTree = "<group>"; };
@@ -253,6 +259,8 @@
 			children = (
 				BBA1ECA2291160D700D2DFEF /* ChartView.swift */,
 				BB75ECAE291055DB00D69779 /* CryptoCard.swift */,
+				BB89BB7329158E5600D4B136 /* LoadingView.swift */,
+				BB89BB7629158F9600D4B136 /* ErrorView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -526,6 +534,8 @@
 				BB9192622915109E00C08001 /* CoinMarketData.swift in Sources */,
 				BB3FDEE7290D33AE00378F05 /* CryptoListView.swift in Sources */,
 				BB75ECAF291055DB00D69779 /* CryptoCard.swift in Sources */,
+				BB89BB7729158F9600D4B136 /* ErrorView.swift in Sources */,
+				BB89BB7429158E5600D4B136 /* LoadingView.swift in Sources */,
 				BB3FDEE5290D33AE00378F05 /* CryptoRadarApp.swift in Sources */,
 				BBA1ECB929129FE900D2DFEF /* CryptoDetailModel.swift in Sources */,
 				BB91925E2913FB8800C08001 /* Extension+Date.swift in Sources */,
@@ -557,9 +567,11 @@
 				BB61CBA02915760300449693 /* CryptoDetailContainerTest.swift in Sources */,
 				BB61CB91291556C100449693 /* CryptoDetailIntentProtocol.swift in Sources */,
 				BB91926B2915311A00C08001 /* RequestProtocol.swift in Sources */,
+				BB89BB7529158E8100D4B136 /* LoadingView.swift in Sources */,
 				BB61CB90291556BF00449693 /* CryptoDetailIntent.swift in Sources */,
 				BB61CB8F291556BA00449693 /* CryptoDetailProtocol.swift in Sources */,
 				BB61CB92291556EB00449693 /* CoinDetail.swift in Sources */,
+				BB89BB7829158F9600D4B136 /* ErrorView.swift in Sources */,
 				BB91926E2915364E00C08001 /* DataParser.swift in Sources */,
 				BB61CB942915570000449693 /* MVIContainer.swift in Sources */,
 				BB61CB9D2915579D00449693 /* Extension+Double.swift in Sources */,

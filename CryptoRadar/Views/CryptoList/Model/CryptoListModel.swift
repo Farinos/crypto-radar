@@ -10,7 +10,7 @@ import Foundation
 final class CryptoListModel: ObservableObject, CryptoListModelStatePotocol {
     @Published var state: CryptoListViewState = .initial
     
-    @Published var coins: [Coin] = []
+    var coins: [Coin] = []
 }
 
 extension CryptoListModel: CryptoListModelActionsProtocol {

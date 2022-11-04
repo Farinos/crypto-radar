@@ -27,7 +27,9 @@ struct CryptoListView: View {
                     CryptoList(coins: coins, intent: container.intent)
                     
                 case let .error(error):
-                    ErrorView(error: error, intent: container.intent)
+                    ErrorView(error: error) {
+                        await container.intent.fetchCrypto()
+                    }
                 }
             }
             .navigationTitle("")
@@ -65,37 +67,6 @@ extension View {
 
 // MARK: - Private structures
 extension CryptoListView {
-    
-    private struct ErrorView: View {
-        let error: Error
-        let intent: CryptoListIntent
-        
-        var body: some View {
-            VStack {
-                Text(error.localizedDescription)
-                Button(action: {
-                    Task {
-                        await intent.fetchCrypto()
-                    }
-                }) {
-                    Text("Riprova")
-                }
-            }
-        }
-    }
-    
-    private struct LoadingView: View {
-        let text: String
-        
-        var body: some View {
-            VStack {
-                ProgressView {
-                    Text(text)
-                }
-            }
-        }
-    }
-    
     private struct CryptoList: View {
         var coins: [Coin]
         var intent: CryptoListIntent

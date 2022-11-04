@@ -8,8 +8,7 @@
 import Foundation
 
 protocol CryptoDetailIntentProtocol {
-    //func viewOnAppear()
-    //func onTapUrlContent(id: String)
+    func fetchDetail() async
 }
 
 final class CryptoDetailIntent {

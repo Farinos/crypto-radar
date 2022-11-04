@@ -51,15 +51,16 @@ struct ChartView: View {
             chartView
                 .frame(height: 200)
                 .background(Color.darkColor)
-                //.cornerRadius(10)
                 .padding(20)
-                // TODO: - review value on chart
-            .overlay(chartYAxis.padding(.horizontal, 4), alignment: .leading)
+                .overlay(chartYAxis
+                    .padding(
+                        .horizontal, 4),
+                         alignment: .leading)
             
-                                chartDateLabels
-                                    .padding(.horizontal, 4)
+            chartDateLabels
+                .padding(.horizontal, 4)
+            
         }.darkNeumorphicStyle()
-        //.font(.caption)
     }
     
     private var chartYAxis: some View {
