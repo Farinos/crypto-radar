@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96EEBE1B-CCB8-44F4-9213-F34ECB9AF405"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53ED71A-ACD3-45EC-B243-44F1852C252A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/CryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchCrypto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A53ED71A-ACD3-45EC-B243-44F1852C252A - 9d69252375146f36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoRadar.CryptoListViewModel.fetchCrypto() async -&gt; ()"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/CryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "A53ED71A-ACD3-45EC-B243-44F1852C252A - 492094992877ee8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CryptoRadar.CryptoListViewModel.fetchCrypto() async -&gt; ()"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/CryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "A53ED71A-ACD3-45EC-B243-44F1852C252A - 663431b54698333c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoRadar.CryptoListViewModel.fetchCrypto() async -&gt; ()"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/CryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "A53ED71A-ACD3-45EC-B243-44F1852C252A - 22a2b4404f62dd39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for CryptoRadar.CryptoListViewModel.fetchCrypto() async -&gt; ()"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/CryptoListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61D423AD-264E-44DF-A37C-E33E5DB21893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/CryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchCrypto()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "653063E2-4D3E-4B0D-BB1D-C1407DF021BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/CryptoListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchCrypto()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "387C9BE7-8653-49D7-BB47-FE27CF30425F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/network/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC9F3AD6-8141-444E-A85A-0B7E9C64C54C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/network/DataParser.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC9F3AD6-8141-444E-A85A-0B7E9C64C54C - 34b35bd7a95e98c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoRadar.DataParser.parse&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) throws -&gt; &#x3c4;_0_0"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/network/DataParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "498">
+               </Location>
+               <Location
+                  uuid = "FC9F3AD6-8141-444E-A85A-0B7E9C64C54C - 34b35bd7a95e98c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoRadar.DataParser.parse&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(Foundation.Data) throws -&gt; &#x3c4;_0_0"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/network/DataParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "550">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "895B7FA5-A008-4982-AC3A-96E12DCBE655"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoRadar/network/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "895B7FA5-A008-4982-AC3A-96E12DCBE655 - c431abac2f1651d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoRadar.RequestManager.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(CryptoRadar.RequestProtocol) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/network/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "99">
+               </Location>
+               <Location
+                  uuid = "895B7FA5-A008-4982-AC3A-96E12DCBE655 - 717e7f8fec0bb62d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CryptoRadar.RequestManager.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(CryptoRadar.RequestProtocol) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/network/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "895B7FA5-A008-4982-AC3A-96E12DCBE655 - 32f81a4d35c4afcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for CryptoRadar.RequestManager.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(CryptoRadar.RequestProtocol) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "CryptoRadar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alefarina/Developer/CryptoRadar/CryptoRadar/network/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
