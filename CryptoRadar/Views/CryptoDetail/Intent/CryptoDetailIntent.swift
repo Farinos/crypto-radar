@@ -7,10 +7,6 @@
 
 import Foundation
 
-protocol CryptoDetailIntentProtocol {
-    func fetchDetail() async
-}
-
 final class CryptoDetailIntent {
     private let service: RequestMangerProtocol
     private weak var model: CryptoDetailModelActionsProtocol?

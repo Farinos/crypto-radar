@@ -29,11 +29,10 @@ class CryptoDetailContainerTest: XCTestCase {
     override func tearDownWithError() throws {
         container = nil
         self.cancellables = []
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
     func testFecthCoinDetailSuccesfull() async throws {
-        let expectation = XCTestExpectation(description: "fetch coins")
+        let expectation = XCTestExpectation(description: "fetch coin details")
         
         container.model.$state.dropFirst(2)
             .sink { state in

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol CryptoListIntentProtocol {
+    func fetchCrypto() async
+}

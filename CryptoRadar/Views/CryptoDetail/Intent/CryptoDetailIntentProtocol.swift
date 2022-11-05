@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol CryptoDetailIntentProtocol {
+    func fetchDetail() async
+}

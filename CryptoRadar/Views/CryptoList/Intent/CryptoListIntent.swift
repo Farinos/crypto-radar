@@ -6,10 +6,6 @@
 //
 
 import Foundation
-// TODO: - Review protocol
-protocol CryptoListIntentProtocol {
-    func fetchCrypto() async
-}
 
 final class CryptoListIntent: CryptoListIntentProtocol {
     private let service: RequestMangerProtocol

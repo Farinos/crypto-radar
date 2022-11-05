@@ -1,17 +1,9 @@
 # Crypto Radar
-Project built on Coin Gekco API
-
-
-# Crypto Radar
+Project built on Coin Gecko API with SwiftUI
 
 > An app using CoinGecko API to display the top 10 crypto by market cap. Also you can navigate through detail section that show general information, market chart and project link.
 
-
-
-  
-
 ## Table of Contents
-
 
 * [Getting Started](#getting-started)
 
@@ -22,9 +14,6 @@ Project built on Coin Gekco API
 * [Requirements](#requirements)
 
 
-<!-- * [License](#license) -->
-
-  
 ## Getting Started
 - [Download](https://developer.apple.com/downloads/index.action)  and install Xcode.  _Crypto Radar_  requires Xcode 13.0.0 or newer.
 - From a command line, run the following snippet in the folder of your preference.
@@ -37,15 +26,16 @@ Project built on Coin Gekco API
 ```
 - In terminal 
 ```bash
- 'open CryptoRadar.xcodeproj'.
+ open CryptoRadar.xcodeproj.
 ```
 - Enjoy :D
 
 ## General Info
-App consist in 2 screen.
+App consist of two screens.
 The first shows a list of the top 10 crypto by market cap, and the last shows selected crypto details.
 
-The app uses the model view intent (MVI) architecture. Every screen is a group of 3 folders.
+The app uses the model view intent (MVI) architecture. 
+Every screen is a group of 3 folders.
 
 - MainView
    - Model
@@ -53,8 +43,7 @@ The app uses the model view intent (MVI) architecture. Every screen is a group o
    - Intent  
 
 The networking layer was built with generics using Async/Await API.
-
-To made a netowrk request simply call perform(RequestProtocol) and wait for response 
+To made a netowrk request simply call perform(RequestProtocol) and wait for response. 
 
 ```swift
  RequestManager().perform(CoinGeckoRequest.getCoinsList(currency: "eur", perPage: "10", page: "1"))

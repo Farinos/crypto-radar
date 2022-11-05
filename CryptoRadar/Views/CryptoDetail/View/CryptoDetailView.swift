@@ -111,7 +111,7 @@ extension CryptoDetailView {
     }
 }
 
-
+// MARK: - Static functions
 extension CryptoDetailView {
     static func build(_ id: String) -> some View {
         let model = CryptoDetailModel()
