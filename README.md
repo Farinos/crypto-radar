@@ -19,14 +19,18 @@ Project built on Coin Gecko API with SwiftUI
 - From a command line, run the following snippet in the folder of your preference.
 ```bash
  git clone "https://github.com/Farinos/crypto-radar.git"
-```
+``` 
+or
+```bash
+ git clone "git@github.com:Farinos/crypto-radar.git"
+``` 
 - Now, to enter the working directory.
 ```bash
   cd crypto-radar
 ```
 - In terminal 
 ```bash
- open CryptoRadar.xcodeproj.
+ open CryptoRadar.xcodeproj
 ```
 - Enjoy :D
 
